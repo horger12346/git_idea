@@ -3,6 +3,15 @@ package com.horger.domian;
 public class User {
     private String userName;
     private String passWord;
+    private String address;
+
+    public String getAddress() {
+        return address;
+    }
+
+    public void setAddress(String address) {
+        this.address = address;
+    }
 
     public String getUserName() {
         return userName;
